@@ -14,11 +14,11 @@ fun calcVersionCode(): Int {
 }
 
 android {
-    namespace = "io.github.saeeddev94.xray"
+    namespace = "com.nicesoft.vpn"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "io.github.saeeddev94.xray"
+        applicationId = "com.nicesoft.vpn"
         minSdk = 26
         targetSdk = 36
         versionCode = calcVersionCode()
